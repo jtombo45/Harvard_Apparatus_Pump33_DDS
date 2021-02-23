@@ -1,0 +1,29 @@
+pySerial Documentation
+-------------------------
+- https://pyserial.readthedocs.io/en/latest/pyserial_api.html
+
+Pump 33 DDS Manual
+----------------------
+- https://www.harvardapparatus.com/media/manuals/Product%20Manuals/Pump-33-DDS-Manual-5419-013-REV1.pdf
+
+
+Pumpy
+---------------------
+- Doesn't support Pump 33 DDS
+- https://github.com/jtombo45/pumpy
+
+Communicating with syringe pump using PySerial
+----------------------------------------------
+- https://robotics.stackexchange.com/questions/5079/communicating-with-syringe-pump-using-pyserial
+
+
+How to send command through serial same way it does with PuTTy in a python script
+-----------------------------------------------------
+- https://stackoverflow.com/questions/58306807/how-to-send-command-through-serial-same-way-it-does-with-putty-in-a-python-scrip
+
+
+Python Datalogger - Using pySerial to Read Serial Data Output from Arduino
+-------------------------------------------
+- https://makersportal.com/blog/2018/2/25/python-datalogger-reading-the-serial-output-from-arduino-to-analyze-data-using-pyserial
+
+
