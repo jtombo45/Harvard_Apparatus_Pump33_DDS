@@ -21,3 +21,40 @@ BIOXFEL leverages ultra-powerful lasers and cameras to study biological processe
 Install via:
 ```bash
 pip install pyserial
+
+## 🖥️ Hardware
+
+- **Device:** Harvard Apparatus Pump 33 DDS  
+- **Connection:** Serial (RS-232 or USB-to-Serial adapter)
+
+> **Note:** Ensure you're using the correct manual for your pump version.  
+> This project references the following manual:  
+> [Pump 33 DDS Manual (REV1)](https://www.harvardapparatus.com/media/manuals/Product%20Manuals/Pump-33-DDS-Manual-5419-013-REV1.pdf)
+
+If your device behaves unexpectedly, verify the firmware version and cross-check it with the correct manual revision.
+
+---
+
+## 🛠️ Usage
+
+1. Connect your pump to the computer via serial.
+2. Configure the correct COM port in the script.
+3. Run the program using:
+
+```bash
+python pump_controller.py --start
+
+Follow the CLI prompts to integrate with your research workflow.
+
+---
+
+## ⚠️ Troubleshooting
+
+### 🔹 Wrong Manual Issue
+- If commands aren’t responding, **confirm that your hardware matches the referenced manual version**.
+- Using the wrong manual caused confusion during development, so **double-check this early** to avoid issues.
+
+### 🔹 Serial Connection Errors
+- Ensure the **correct serial port** is selected in your configuration.
+- Confirm that **USB-to-Serial adapter drivers** are properly installed on your system.
+
