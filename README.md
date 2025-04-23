@@ -43,6 +43,7 @@ If your device behaves unexpectedly, verify the firmware version and cross-check
 
 ```bash
 python pump_controller.py --start
+```
 
 Follow the CLI prompts to integrate with your research workflow.
 
