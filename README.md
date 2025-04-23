@@ -1,6 +1,7 @@
 # Harvard Apparatus Pump 33 DDS Control
 
-![Project Cover](./A_project_cover_image_for_"HarvardApparatusPump.png)
+![Project Cover](HarvardAppartusPump.png)
+
 
 ## 🚀 Overview
 This project provides a **simplified, modular command-line interface** for controlling Harvard Apparatus syringe pumps using `pySerial`. Originally developed at **BIOXFEL**, this refactored code replaces a legacy, complex research script with a cleaner, more maintainable solution.
