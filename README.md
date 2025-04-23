@@ -17,6 +17,9 @@ BIOXFEL leverages ultra-powerful lasers and cameras to study biological processe
 - Serial communication with Harvard Apparatus pumps.
 - Compatible with **Pump 33 DDS** hardware.
 
+## 📂 Harvard Manual
+- link: https://www.harvardapparatus.com/media/manuals/Product%20Manuals/Pump-33-DDS-Manual-5419-013-REV1.pdf
+
 ## ⚡ Dependencies
 - `pySerial`  
 Install via:
